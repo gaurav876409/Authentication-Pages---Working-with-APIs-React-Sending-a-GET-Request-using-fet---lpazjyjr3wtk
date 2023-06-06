@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router'
 import { Signin } from './pages/Signin'
 import { Home } from './pages/Home'
 import { Signup } from './pages/Signup'
-export const AppRoutes = () => {
+const AppRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
@@ -15,3 +15,6 @@ export const AppRoutes = () => {
         </BrowserRouter>
     )
 }
+export default AppRoutes;
+
+
